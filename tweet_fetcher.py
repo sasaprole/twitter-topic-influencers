@@ -18,7 +18,7 @@ class TweetFetcher():
                 status = status.AsDict()
                 status['term'] = topic
                 self.statuses.append(status)
-            return self.statuses
+        return self.statuses
     
     def save(self):
         for status in self.statuses:
