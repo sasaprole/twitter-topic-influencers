@@ -14,10 +14,22 @@ terms = ["Fashion Tech",
          "Safety",
          "Road Safety",
          "Traffic Safety",
-         "Visibility"]
+        "Visibility",
+		 "#Kickstarter",
+		 "#kickstarter",
+		 "#Crowdfunding",
+		 "#crowdfunding",
+		 "#kickstart",
+		 "crowdfund",
+		 "Kickstarter",
+		 "kickstarter",
+		 "Crowdfunding",
+		 "crowdfunding",
+		 "kickstart",
+		 "crowdfund"]
 
 
-client = MongoClient()
+client = MongoClient("mongodb://sasaprole:123ChangeMe!!!@localhost")
 ct = client.cycle_tweets
 ct_search_results = ct.search_results
 
